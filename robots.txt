@@ -1,0 +1,13 @@
+User-agent:*
+
+#Dossiers
+Disallow: /images/
+
+#Pages
+Disallow: /contact
+Disallow: /partenaires
+
+Allow: /index
+Allow: /accompagnements
+Allow: /evenements
+Allow: /dons
