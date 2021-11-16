@@ -1,5 +1,17 @@
 body {
   background-color: beige;
+  height: 100vh;
+}
+
+/*Header*/
+
+.img-accueil {
+  width: 100%;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
 }
 
 /*Sections*/
@@ -9,6 +21,7 @@ body {
   border-radius: 45px;
   padding: 15px;
   margin: 15px;
+  margin-top: 30px;
 }
 
 .title_missions {
@@ -42,8 +55,30 @@ body {
 /*Footer*/
 
 footer {
+  background-color: rgba(128, 128, 128, 0.5);
+  padding-top: 15px;
+  padding-bottom: 5px;
+  margin-top: 40px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(63, 60, 60);
+}
+
+footer ul li a:hover {
+  color: rgba(189, 47, 59, 0.7);
+  text-decoration: underline;
+}
+
+.mention, .author {
   display: flex;
-  background-color: gray;
+  justify-content: space-around;
+}
+
+.mention li, .author li {
+  list-style-type: none;
 }
 
 /*Sections (à mettre dans les média queries)
