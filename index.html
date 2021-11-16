@@ -14,7 +14,7 @@
 
 <body>
  <header>
-  <nav class="navbar navbar-expand-lg bg-dark text-white">
+  <nav class="navbar navbar-expand-lg navbar-light text-white"> <!--Pour utiliser un bg perso : <nav class="navbar navbar-light" style="background-color: #bd2f3b;"></nav> (on peut également fixer la navbar au top avec fixed-top !!Cela cache le titre si pas de CSS!!)-->
     <div class="container-fluid">
       <a href="index.html" class="navbar-brand">
         <img src="#" alt="Logo ASPT">
@@ -27,7 +27,7 @@
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a href="#" class="dropdown-item">Logement</a></li>
               <li><a href="#" class="dropdown-item">Insertion Socio-Professionnelle</a></li>
-              <li><a href="#" class="dropdown-item">Médico-Social</a></li>
+              <li><a href="#" class="dropdown-item">Psycho-Médico-Social</a></li>
               <li><a href="#" class="dropdown-item">Juridique</a></li>
             </ul>
           </li>
@@ -57,18 +57,157 @@
 
  <main class="container-fluid">
 
-  <h1>L'ASPT : Qui sommes nous?</h1>
+  <section class="who">
+    <h2>L'ASPT : Qui sommes nous?</h2>
+    <p>
+      L'Accompagnement Social Pour Tous est une association composée en grande majorité de personnes bénévoles voulant aider son prochain dans les diverses démarches du quotidien.<br>
+      Ces personnes sont en grande partie des assistants sociaux, des médecins ou infirmiers, des aides-familiales, des psychologues, des restaurateurs, des agents immobiliers, ... Mais également d'autres personnes ayant eu besoin d'aide auparavant, désireuses d'elles aussi tendre la main aux personnes à la recherche de soutien, que ce soit pour une aide physique ou psychologique.<br>
+      Quel que soit votre statut ou votre situation familiale, l'ASPT est là pour vous!
+    </p>
+  </section>
 
-  <p>L'Accompagnement Social Pour Tous est une association composée en grande majorité de personnes bénévoles voulant aider son prochain dans les diverses démarches du quotidien.<br>
-  Ces personnes sont en grande partie des assistants sociaux, des médecins ou infirmiers, des aides-familiales, des psychologues, des restaurateurs, des agents immobiliers, ... Mais également d'autres personnes ayant eu besoin d'aide auparavant, désireuses d'elles aussi tendre la main aux personnes à la recherche de soutien, que ce soit pour une aide physique ou psychologique.
-  </p>
+  <section>
+    <h2 class="title_missions">Résumé de nos missions</h2>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="mission lodging">
+          <h3>L'aide au logement</h3>
+            <ul>
+              <li>Trouver un logement</li>
+              <li>Obtenir des aides financières</li>
+              <li>Gérer le budget loyer</li>
+              <li>Gestion des litiges</li>
+            </ul>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="mission isp">
+          <h3>l'Insertion Socio-Professionnelle</h3>
+            <ul>
+              <li>Orientation</li>
+              <li>Formation</li>
+              <li>Comment bien se présenter</li>
+              <li>Rédiger un CV et une lettre de motivation</li>
+              <li>Organiser ses recherches d'emploi</li>
+            </ul>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="mission pms">
+          <h3>Le Psycho-Médico-Social</h3>
+            <ul>
+              <li>Aide psychologique</li>
+              <li>Régularisation couverture santé</li>
+              <li>Gestion et médiation de dettes</li>
+              <li>Ateliers de réinsertion sociale</li>
+            </ul>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="mission legal">
+          <h3>L'aide juridique</h3>
+            <ul>
+              <li>Aide en matière de droit privé</li>
+              <li>Négociations</li>
+              <li>Avocats gratuits</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+  </section>
+
+  <section class="values">
+    <h3>Nos valeurs</h3>
+      <ul>
+        <li>Respect</li>
+        <li>Dignité</li>
+        <li>Humanité</li>
+        <li>Solidarité</li>
+        <li>Diversité</li>
+        <li>Empathie</li>
+        <li>Amour</li>
+      </ul>
+  </section>
 
  </main>
 
  <footer>
-
+   <ul>
+     <li>Mentions légales</li>
+     <li>Politique de confidentialité</li>
+     <li>Foire aux questions</li>
+   </ul>
+     
+  <ul>
+    <li>Tous droits réservés</li>
+    <li>Codé par Hubert Marjorie</li>
+  </ul>
  </footer>
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </html>
+
+
+
+
+
+
+
+
+<!--<section class="missions">
+    <h2 class="title_missions">Résumé de nos missions</h2>
+
+      <div class="mission lodging">
+        <h3>L'aide au logement</h3>
+          <ul>
+            <li>Trouver un logement</li>
+            <li>Obtenir des aides financières</li>
+            <li>Gérer le budget loyer</li>
+            <li>Gestion des litiges</li>
+          </ul>
+      </div>
+
+      <div class="mission isp">
+        <h3>l'Insertion Socio-Professionnelle</h3>
+          <ul>
+            <li>Orientation</li>
+            <li>Formation</li>
+            <li>Comment bien se présenter</li>
+            <li>Rédiger un CV et une lettre de motivation</li>
+            <li>Organiser ses recherches d'emploi</li>
+          </ul>
+      </div>
+
+      <div class="mission pms">
+        <h3>Le Psycho-Médico-Social</h3>
+          <ul>
+            <li>Aide psychologique</li>
+            <li>Régularisation couverture santé</li>
+            <li>Gestion et médiation de dettes</li>
+            <li>Ateliers de réinsertion sociale</li>
+          </ul>
+      </div>
+
+      <div class="mission legal">
+        <h3>L'aide juridique</h3>
+          <ul>
+            <li>Aide en matière de droit privé</li>
+            <li>Négociations</li>
+            <li>Avocats gratuits</li>
+          </ul>
+      </div>
+      <p>
+        Afin d'en savoir plus, je vous invite à consulter nos différentes rubriques dans l'onglet "Nos accompagnements".
+      </p>
+  </section>-->
