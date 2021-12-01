@@ -3,6 +3,19 @@ body {
   height: 100vh;
 }
 
+/*Pages en construction*/
+
+.construct {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin: 30px;
+  height: 250px;
+}
+
 /*Header*/
 
 .img-accueil {
@@ -22,6 +35,21 @@ body {
   background-color: rgb(143, 153, 163);
 }
 
+/*Barres de défilement, code trouvé sur internet*/
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
 .dropdown-menu {
   background-color: rgba(255, 255, 255, 0);
   border: none;
@@ -29,6 +57,11 @@ body {
 
 .dropdown-menu a {
   color: lightgray;
+}
+
+.dropdown-menu a:hover {
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
 }
 
 /*Sections*/
