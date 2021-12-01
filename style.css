@@ -12,6 +12,23 @@ body {
 .navbar {
   position: absolute;
   top: 0;
+  width: 95%;
+}
+
+.navbar-toggler {
+  position: absolute; 
+  top: 20px;
+  right: 10px;
+  background-color: rgb(143, 153, 163);
+}
+
+.dropdown-menu {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+}
+
+.dropdown-menu a {
+  color: lightgray;
 }
 
 /*Sections*/
@@ -39,10 +56,6 @@ body {
 
 .mission ul li {
   list-style-type: none;
-}
-
-.values {
-  max-height: 266.52px;
 }
 
 .img-fluid {
