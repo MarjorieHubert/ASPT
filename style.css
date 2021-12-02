@@ -66,6 +66,7 @@ body {
 
 /*Sections*/
 
+/*Index*/
 .who, .values {
   background-color:rgba(189, 47, 59, 0.7);
   border-radius: 45px;
@@ -127,66 +128,47 @@ footer ul li a:hover {
   list-style-type: none;
 }
 
-/*Sections (à mettre dans les média queries)
+/*Média queries*/
 
-.title_missions {
-  text-align: center;
+@media screen and (min-width: 690px) {
+  .navbar-nav-scroll {
+    max-height: 250px;
+  }
 }
 
-.missions {
+@media screen and (min-width: 992px) { 
+  .navbar-nav > .nav-item > .nav-link { 
+    color: black;
+    font-weight: bold;
+  }
 
-  background: -moz-linear-gradient(top,  rgba(203,96,179,0) 0%, rgba(193,70,161,0) 1%, rgba(195,69,161,0) 7%, rgba(212,58,163,1) 73%, rgba(219,54,164,1) 99%, rgba(219,54,164,1) 100%); 
-  background: -webkit-linear-gradient(top,  rgba(203,96,179,0) 0%,rgba(193,70,161,0) 1%,rgba(195,69,161,0) 7%,rgba(212,58,163,1) 73%,rgba(219,54,164,1) 99%,rgba(219,54,164,1) 100%); 
-  background: linear-gradient(to bottom,  rgba(203,96,179,0) 0%,rgba(193,70,161,0) 1%,rgba(195,69,161,0) 7%,rgba(212,58,163,1) 73%,rgba(219,54,164,1) 99%,rgba(219,54,164,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00cb60b3', endColorstr='#db36a4',GradientType=0 ); 
-
-  width: 80%;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
-  display: flex;
-  flex-wrap: wrap;
+  .dropdown-menu a {
+    color: black;
+  }
 }
 
-.mission h3 {
-  position: absolute;
-  top: 15%;
-  left: 15%;;
-}
+@media screen and (min-width: 1060px) {
+  .img-accueil {
+    max-height: 500px;
+  }
 
-.mission {
-  position: relative;
-  background-color: beige;
-  width: 30%;
-  height: 400px;
-  border-radius: 100%;
-  text-align: center;
-}
+  .who , .values {
+    max-width: 70%;
+  }
 
-.mission ul {
-    position: absolute;
-    top: 35%;
-    left: 15%;
-}
+  .missions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
 
-.mission li {
-  list-style-type: none;
-  padding: 3px;
-}
+  .title_missions {
+    align-self: center;
+  }
 
-.values {
-  background: -moz-linear-gradient(top,  rgba(203,96,179,0) 0%, rgba(193,70,161,0) 1%, rgba(195,69,161,0) 7%, rgba(212,58,163,1) 73%, rgba(219,54,164,1) 99%, rgba(219,54,164,1) 100%);
-  background: -webkit-linear-gradient(top,  rgba(203,96,179,0) 0%,rgba(193,70,161,0) 1%,rgba(195,69,161,0) 7%,rgba(212,58,163,1) 73%,rgba(219,54,164,1) 99%,rgba(219,54,164,1) 100%);
-  background: linear-gradient(to bottom,  rgba(203,96,179,0) 0%,rgba(193,70,161,0) 1%,rgba(195,69,161,0) 7%,rgba(212,58,163,1) 73%,rgba(219,54,164,1) 99%,rgba(219,54,164,1) 100%); 
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00cb60b3', endColorstr='#db36a4',GradientType=0 ); 
-
-  width: 80%;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
+  .carousel {
+    padding-top: 25px;
+    max-width: 70%;
+    min-width: 70%;
+  }
 }
-*/
