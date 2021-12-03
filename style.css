@@ -97,6 +97,14 @@ body {
   max-height: 237.09px;
 }
 
+/*Page événements*/
+
+/*informations dans la fenêtre modale*/
+.info {
+  color: lightslategrey;
+  font-size: x-small;
+  font-style: italic;
+}
 
 
 /*Footer*/
