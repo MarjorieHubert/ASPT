@@ -85,7 +85,7 @@
         </svg>
         <h1 class="m-1">Nos activités/événements à venir :</h1>
       </div>
-      <form class="d-flex m-3">
+      <form class="d-flex m-3 mb-4">
         <input class="form-control me-2" type="search" placeholder="Rechercher un événement ou une activité" id="search" aria-label="Rechercher">
         <button class="btn btn-outline-secondary" type="submit">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
@@ -97,7 +97,7 @@
 
     <section>
       <article>
-        <div class="card m-3">
+        <div class="card m-3 mb-4">
           <img src="images/sdf.jpeg" class="card-img-top" alt="Sans-abri dans le froid">
           <div class="card-body">
             <h5 class="card-title">L'hiver est à nos portes</h5>
@@ -109,13 +109,47 @@
               Où? : Départ de nos locaux à l'adresse suivante : 14 Avenue Gambetta, 81000 Albi.
             </p>
             <p>Si vous aussi vous voulez participer à cette campagne et venir en aide aux plus démunis, inscrivez-vous ci-dessous.</p>
-            <a href="#" class="btn btn-primary">Participer</a>
+            <div class="container-fluid">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal1">
+              Participer
+              </button>
+            
+              <!-- Modal -->
+              <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h2>Renseigner vos informations :</h2>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="mb-3">
+                          <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Nom">
+                        </div>
+                        <div class="mb-3">
+                          <input type="text" class="form-control" id="firstname" aria-describedby="firstname" placeholder="Prénom">
+                        </div>
+                        <div class="mb-3">
+                          <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="E-mail">
+                        </div>
+                        <div class="mb-3">
+                          <input type="tel" class="form-control" id="tel" aria-describedby="tel" placeholder="Téléphone">
+                        </div>
+                        <button type="submit" class="btn btn-info text-white">Valider ma participation</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </article>
 
       <article>
-        <div class="card m-3">
+        <div class="card m-3 mb-4">
           <img src="images/Marathon.png" class="card-img-top" alt="Marathon">
           <div class="card-body">
             <h5 class="card-title">Marathon social</h5>
@@ -132,13 +166,47 @@
             <p>
               Si vous aussi vous voulez participer à cette activité et venir en aide aux plus démunis, inscrivez-vous ci-dessous.
             </p>
-            <a href="#" class="btn btn-primary">Participer</a>
+            <div class="container-fluid">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary btn1" data-bs-toggle="modal" data-bs-target="#Modal2">
+              Participer
+              </button>
+            
+              <!-- Modal -->
+              <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h2>Renseigner vos informations :</h2>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                        <div class="mb-3">
+                          <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Nom">
+                        </div>
+                        <div class="mb-3">
+                          <input type="text" class="form-control" id="firstname" aria-describedby="firstname" placeholder="Prénom">
+                        </div>
+                        <div class="mb-3">
+                          <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="E-mail">
+                        </div>
+                        <div class="mb-3">
+                          <input type="tel" class="form-control" id="tel" aria-describedby="tel" placeholder="Téléphone">
+                        </div>
+                        <button type="submit" class="btn btn-info text-white">Valider ma participation</button>
+                      </form>  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </article>
 
       <article>
-        <div class="card m-3">
+        <div class="card m-3 mb-4">
           <img src="images/cv.jpg.crdownload" class="card-img-top" alt="CV">
           <div class="card-body">
             <h5 class="card-title">ISP : Comment rédiger un CV</h5>
@@ -154,13 +222,47 @@
               Si vous êtes intéressé par cette activité n'hésitez pas à vous inscrire en cliquant sur le bouton ci-dessous.
             </p>
             <p>Attention, les places sont limitées!</p>
-            <a href="#" class="btn btn-primary">Participer</a>
+            <div class="container-fluid">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary btn1" data-bs-toggle="modal" data-bs-target="#Modal3">
+              Participer
+              </button>
+            
+              <!-- Modal -->
+              <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h2>Renseigner vos informations :</h2>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">                      
+                      <form>
+                        <div class="mb-3">
+                          <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Nom">
+                        </div>
+                        <div class="mb-3">
+                          <input type="text" class="form-control" id="firstname" aria-describedby="firstname" placeholder="Prénom">
+                        </div>
+                        <div class="mb-3">
+                          <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="E-mail">
+                        </div>
+                        <div class="mb-3">
+                          <input type="tel" class="form-control" id="tel" aria-describedby="tel" placeholder="Téléphone">
+                        </div>
+                        <button type="submit" class="btn btn-info text-white">Valider ma participation</button>
+                      </form>  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </article>
 
       <article>
-        <div class="card m-3">
+        <div class="card m-3 mb-4">
           <img src="images/couture.jpeg" class="card-img-top" alt="couture">
           <div class="card-body">
             <h5 class="card-title">Atelier couture</h5>
@@ -177,13 +279,47 @@
               Si vous êtes intéressé par cette activité n'hésitez pas à vous inscrire en cliquant sur le bouton ci-dessous.
             </p>
             <p>Attention, les places sont limitées!</p>
-            <a href="#" class="btn btn-primary">Participer</a>
+            <div class="container-fluid">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary btn1" data-bs-toggle="modal" data-bs-target="#Modal4">
+              Participer
+              </button>
+            
+              <!-- Modal -->
+              <div class="modal fade" id="Modal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h2>Renseigner vos informations :</h2>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">                      
+                      <form>
+                        <div class="mb-3">
+                          <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Nom">
+                        </div>
+                        <div class="mb-3">
+                          <input type="text" class="form-control" id="firstname" aria-describedby="firstname" placeholder="Prénom">
+                        </div>
+                        <div class="mb-3">
+                          <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="E-mail">
+                        </div>
+                        <div class="mb-3">
+                          <input type="tel" class="form-control" id="tel" aria-describedby="tel" placeholder="Téléphone">
+                        </div>
+                        <button type="submit" class="btn btn-info text-white">Valider ma participation</button>
+                      </form>  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </article>
 
       <article>
-        <div class="card m-3">
+        <div class="card m-3 mb-4">
           <img src="images/peinture.jpg" class="card-img-top" alt="peinture">
           <div class="card-body">
             <h5 class="card-title">Atelier peinture</h5>
@@ -199,13 +335,47 @@
               Si vous êtes intéressé par cette activité n'hésitez pas à vous inscrire en cliquant sur le bouton ci-dessous.
             </p>
             <p>Attention, les places sont limitées!</p>
-            <a href="#" class="btn btn-primary">Participer</a>
+            <div class="container-fluid">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary btn1" data-bs-toggle="modal" data-bs-target="#Modal5">
+              Participer
+              </button>
+            
+              <!-- Modal -->
+              <div class="modal fade" id="Modal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h2>Renseigner vos informations :</h2>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">                      
+                      <form>
+                        <div class="mb-3">
+                          <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Nom">
+                        </div>
+                        <div class="mb-3">
+                          <input type="text" class="form-control" id="firstname" aria-describedby="firstname" placeholder="Prénom">
+                        </div>
+                        <div class="mb-3">
+                          <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="E-mail">
+                        </div>
+                        <div class="mb-3">
+                          <input type="tel" class="form-control" id="tel" aria-describedby="tel" placeholder="Téléphone">
+                        </div>
+                        <button type="submit" class="btn btn-info text-white">Valider ma participation</button>
+                      </form>  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </article>
 
       <article>
-        <div class="card m-3">
+        <div class="card m-3 mb-4">
           <img src="images/impossible.png" class="card-img-top" alt="#">
           <div class="card-body">
             <h5 class="card-title">Atelier sur la confiance en soi</h5>
@@ -221,7 +391,41 @@
               Si vous êtes intéressé par cette activité n'hésitez pas à vous inscrire en cliquant sur le bouton ci-dessous.
             </p>
             <p>Attention, les places sont limitées!</p>
-            <a href="#" class="btn btn-primary">Participer</a>
+            <div class="container-fluid">
+              <!-- Button trigger modal -->
+              <button type="button" class="btn btn-primary btn1" data-bs-toggle="modal" data-bs-target="#Modal6">
+              Participer
+              </button>
+            
+              <!-- Modal -->
+              <div class="modal fade" id="Modal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h2>Renseigner vos informations :</h2>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">                      
+                      <form>
+                        <div class="mb-3">
+                          <input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Nom">
+                        </div>
+                        <div class="mb-3">
+                          <input type="text" class="form-control" id="firstname" aria-describedby="firstname" placeholder="Prénom">
+                        </div>
+                        <div class="mb-3">
+                          <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="E-mail">
+                        </div>
+                        <div class="mb-3">
+                          <input type="tel" class="form-control" id="tel" aria-describedby="tel" placeholder="Téléphone">
+                        </div>
+                        <button type="submit" class="btn btn-info text-white">Valider ma participation</button>
+                      </form>  
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </article>
