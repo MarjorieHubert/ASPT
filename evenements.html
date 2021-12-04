@@ -95,11 +95,11 @@
     </div>
 
     <section class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
-      <article class="col"> <!--col-lg-4 d-flex align-items-stretch-->
+      <article class="col">
         <div class="card m-3 mb-4 h-100">
           <img src="images/sdf.jpeg" class="card-img-top" alt="Sans-abri dans le froid">
           <div class="card-body">
-            <h5 class="card-title">L'hiver est à nos portes</h5>
+            <h2 class="card-title">L'hiver est à nos portes</h2>
             <p class="card-text">L'hiver s'installant petit à petit, nos bénévoles se mobilisent pour une campagne de dons et de soutient aux sans-abris dans nos rues.<br>
             Venez avec notre équipe distribuer des boissons chaudes, des couvertures, de la nourriture et d'autres choses utiles aux personnes dans le besoin.
             </p>
@@ -120,7 +120,7 @@
               <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h2>Renseignez vos informations*</h2>
+                    <h3 class="modal-title">Renseignez vos informations*</h3>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close1"></button>
                   </div>
                   <div class="modal-body">
@@ -138,8 +138,25 @@
                         <input type="tel" class="form-control" id="tel1" aria-describedby="tel1" placeholder="Téléphone">
                       </div>
                       <p class="info">*Vos informations personnelles ne seront pas communiquées, elles nous serviront uniquement à vous envoyer un rappel de l'activité par mail et par téléphone.</p>
-                      <button type="submit" class="btn btn-info text-white">Valider ma participation</button>
                     </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-info text-white" data-bs-target="#validModal1" data-bs-toggle="modal">Valider ma participation</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="validModal1" aria-hidden="true" aria-labelledby="validModal1" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="CloseValidModal1"></button>
+                  </div>
+                  <div class="modal-body">
+                    Oops désolé mais ce n'est pas encore possible pour le moment!
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#Modal1" data-bs-toggle="modal">Retour</button>
                   </div>
                 </div>
               </div>
@@ -152,7 +169,7 @@
         <div class="card m-3 mb-4 h-100">
           <img src="images/Marathon.png" class="card-img-top" alt="Marathon">
           <div class="card-body">
-            <h5 class="card-title">Marathon social</h5>
+            <h2 class="card-title">Marathon social</h2>
             <p class="card-text">
               L'ASPT organise un marathon social ayant pour but de réunir des fonds pour aider les personnes démunies.
             </p>
@@ -178,7 +195,7 @@
               <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h2>Renseignez vos informations*</h2>
+                    <h3 class="modal-title">Renseignez vos informations*</h3>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close2"></button>
                   </div>
                   <div class="modal-body">
@@ -196,8 +213,25 @@
                         <input type="tel" class="form-control" id="tel2" aria-describedby="tel2" placeholder="Téléphone">
                       </div>
                       <p class="info">*Vos informations personnelles ne seront pas communiquées, elles nous serviront uniquement à vous envoyer un rappel de l'activité par mail et par téléphone.</p>
-                      <button type="submit" class="btn btn-info text-white">Valider ma participation</button>
                     </form>  
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-info text-white" data-bs-target="#validModal2" data-bs-toggle="modal">Valider ma participation</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="validModal2" aria-hidden="true" aria-labelledby="validModal2" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="CloseValidModal2"></button>
+                  </div>
+                  <div class="modal-body">
+                    Oops désolé mais ce n'est pas encore possible pour le moment!
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#Modal2" data-bs-toggle="modal">Retour</button>
                   </div>
                 </div>
               </div>
@@ -210,7 +244,7 @@
         <div class="card m-3 mb-4 h-100">
           <img src="images/cv.jpg.crdownload" class="card-img-top" alt="CV">
           <div class="card-body">
-            <h5 class="card-title">ISP : Comment rédiger un CV</h5>
+            <h2 class="card-title">ISP : Comment rédiger un CV</h2>
             <p class="card-text">
               Vous vous demandez comment bien rédiger votre CV et bien vous mettre en avant? Alors cet atelier est fait pour vous!
             </p>
@@ -235,7 +269,7 @@
               <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h2>Renseignez vos informations*</h2>
+                    <h3 class="modal-title">Renseignez vos informations*</h3>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close3"></button>
                   </div>
                   <div class="modal-body">                      
@@ -253,8 +287,25 @@
                         <input type="tel" class="form-control" id="tel3" aria-describedby="tel3" placeholder="Téléphone">
                       </div>
                       <p class="info">*Vos informations personnelles ne seront pas communiquées, elles nous serviront uniquement à vous envoyer un rappel de l'activité par mail et par téléphone.</p>
-                      <button type="submit" class="btn btn-info text-white">Valider ma participation</button>
                     </form>  
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-info text-white" data-bs-target="#validModal3" data-bs-toggle="modal">Valider ma participation</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="validModal3" aria-hidden="true" aria-labelledby="validModal3" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="CloseValidModal3"></button>
+                  </div>
+                  <div class="modal-body">
+                    Oops désolé mais ce n'est pas encore possible pour le moment!
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#Modal3" data-bs-toggle="modal">Retour</button>
                   </div>
                 </div>
               </div>
@@ -267,7 +318,7 @@
         <div class="card m-3 mb-4 h-100">
           <img src="images/couture.jpeg" class="card-img-top" alt="couture">
           <div class="card-body">
-            <h5 class="card-title">Atelier couture</h5>
+            <h2 class="card-title">Atelier couture</h2>
             <p class="card-text">
               Vous avez toujours voulu vous initier à la couture ou partager votre talent avec d'autres personnes? Alors cet atelier est fait pour vous!
             </p>
@@ -293,7 +344,7 @@
               <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h2>Renseignez vos informations*</h2>
+                    <h3 class="modal-title">Renseignez vos informations*</h3>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close4"></button>
                   </div>
                   <div class="modal-body">                      
@@ -311,8 +362,25 @@
                         <input type="tel" class="form-control" id="tel4" aria-describedby="tel4" placeholder="Téléphone">
                       </div>
                       <p class="info">*Vos informations personnelles ne seront pas communiquées, elles nous serviront uniquement à vous envoyer un rappel de l'activité par mail et par téléphone.</p>
-                      <button type="submit" class="btn btn-info text-white">Valider ma participation</button>
                     </form>  
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-info text-white" data-bs-target="#validModal4" data-bs-toggle="modal">Valider ma participation</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="validModal4" aria-hidden="true" aria-labelledby="validModal4" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="CloseValidModal4"></button>
+                  </div>
+                  <div class="modal-body">
+                    Oops désolé mais ce n'est pas encore possible pour le moment!
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#Modal4" data-bs-toggle="modal">Retour</button>
                   </div>
                 </div>
               </div>
@@ -325,7 +393,7 @@
         <div class="card m-3 mb-4 h-100">
           <img src="images/peinture.jpg" class="card-img-top" alt="peinture">
           <div class="card-body">
-            <h5 class="card-title">Atelier peinture</h5>
+            <h2 class="card-title">Atelier peinture</h2>
             <p class="card-text">
               Vous vous demandez comment bien rédiger votre CV et bien vous mettre en avant? Alors cet atelier est fait pour vous!
             </p>
@@ -350,7 +418,7 @@
               <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h2>Renseignez vos informations*</h2>
+                    <h3 class="modal-title">Renseignez vos informations*</h3>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close5"></button>
                   </div>
                   <div class="modal-body">                      
@@ -368,8 +436,25 @@
                         <input type="tel" class="form-control" id="tel5" aria-describedby="tel5" placeholder="Téléphone">
                       </div>
                       <p class="info">*Vos informations personnelles ne seront pas communiquées, elles nous serviront uniquement à vous envoyer un rappel de l'activité par mail et par téléphone.</p>
-                      <button type="submit" class="btn btn-info text-white">Valider ma participation</button>
                     </form>  
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-info text-white" data-bs-target="#validModal5" data-bs-toggle="modal">Valider ma participation</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="validModal5" aria-hidden="true" aria-labelledby="validModal5" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="CloseValidModal5"></button>
+                  </div>
+                  <div class="modal-body">
+                    Oops désolé mais ce n'est pas encore possible pour le moment!
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#Modal5" data-bs-toggle="modal">Retour</button>
                   </div>
                 </div>
               </div>
@@ -382,7 +467,7 @@
         <div class="card m-3 mb-4 h-100">
           <img src="images/impossible.png" class="card-img-top" alt="#">
           <div class="card-body">
-            <h5 class="card-title">Atelier sur la confiance en soi</h5>
+            <h2 class="card-title">Atelier sur la confiance en soi</h2>
             <p class="card-text">
               Vous vous demandez comment bien rédiger votre CV et bien vous mettre en avant? Alors cet atelier est fait pour vous!
             </p>
@@ -407,7 +492,7 @@
               <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h2>Renseignez vos informations*</h2>
+                    <h3 class="modal-title">Renseignez vos informations*</h3>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close6"></button>
                   </div>
                   <div class="modal-body">                      
@@ -425,8 +510,25 @@
                         <input type="tel" class="form-control" id="tel6" aria-describedby="tel6" placeholder="Téléphone">
                       </div>
                       <p class="info">*Vos informations personnelles ne seront pas communiquées, elles nous serviront uniquement à vous envoyer un rappel de l'activité par mail et par téléphone.</p>
-                      <button type="submit" class="btn btn-info text-white">Valider ma participation</button>
                     </form>  
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-info text-white" data-bs-target="#validModal6" data-bs-toggle="modal">Valider ma participation</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal fade" id="validModal6" aria-hidden="true" aria-labelledby="validModal6" tabindex="-1">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="CloseValidModal6"></button>
+                  </div>
+                  <div class="modal-body">
+                    Oops désolé mais ce n'est pas encore possible pour le moment!
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-target="#Modal6" data-bs-toggle="modal">Retour</button>
                   </div>
                 </div>
               </div>
