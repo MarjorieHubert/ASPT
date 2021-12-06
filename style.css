@@ -105,7 +105,7 @@ body {
 
 .formulaire {
   margin: 15px;
-  padding-top: 50px;
+  padding-top: 40px;
   padding-bottom: 50px;
   display: flex;
   flex-direction: column;
@@ -119,8 +119,14 @@ body {
   color: lightgray;
 }
 
-.join {
+.join, .adress {
   margin: 15px;
+}
+
+.adress {
+  background-color: rgba(189, 47, 59, 0.7);
+  border-radius: 15px;
+  padding: 15px;
 }
 
 /*Page événements : informations dans la fenêtre modale*/
@@ -180,6 +186,12 @@ footer ul li a:hover {
 
   .navbar {
     width: initial;
+  }
+
+  .adress {
+    width: 50%;
+    margin: auto;
+    margin-top: 25px;
   }
 }
 
