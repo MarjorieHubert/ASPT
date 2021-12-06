@@ -120,6 +120,40 @@ body {
   color: lightgray;
 }
 
+.btn-contact:hover {
+  background-color: green;
+  height: 60px;
+  width: 300px;
+}
+
+.svg {
+  display: none;
+  animation-name: interrogation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes interrogation {
+  0%{
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  25% {
+    opacity: 0.25;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100%{
+    opacity: 1;
+    transform: rotate(360deg);
+  }
+}
+
 .join, .adress {
   margin: 15px;
 }
@@ -193,6 +227,10 @@ footer ul li a:hover {
     width: 50%;
     margin: auto;
     margin-top: 25px;
+  }
+
+  .svg {
+    display: initial;
   }
 }
 
