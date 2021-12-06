@@ -35,6 +35,10 @@ body {
   background-color: rgb(143, 153, 163);
 }
 
+.offcanvas {
+  background-color: grey;
+}
+
 /*Barres de défilement, code trouvé sur internet*/
 ::-webkit-scrollbar {
     width: 12px;
@@ -150,6 +154,10 @@ footer ul li a:hover {
 
   .dropdown-menu a {
     color: black;
+  } 
+
+  .navbar {
+    width: initial;
   }
 }
 
