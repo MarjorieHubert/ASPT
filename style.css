@@ -29,10 +29,11 @@ body {
 }
 
 .navbar-toggler {
-  position: absolute; 
+  position: fixed; 
   top: 20px;
   right: 10px;
   background-color: rgb(143, 153, 163);
+  z-index: 999;
 }
 
 .offcanvas {
