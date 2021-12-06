@@ -101,6 +101,28 @@ body {
   max-height: 237.09px;
 }
 
+/*Section contact*/
+
+.formulaire {
+  margin: 15px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-control::placeholder
+{
+  font-style: italic;
+  color: lightgray;
+}
+
+.join {
+  margin: 15px;
+}
+
 /*Page événements : informations dans la fenêtre modale*/
 .info {
   color: lightslategrey;
