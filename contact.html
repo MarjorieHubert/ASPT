@@ -27,40 +27,48 @@
           <path d="M105 18L108.817 29.4012H121.168L111.176 36.4476L114.992 47.8488L105 40.8024L95.0077 47.8488L98.8244 36.4476L88.832 29.4012H101.183L105 18Z" fill="#CE0101"/>
           </svg>
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav navbar-nav-scroll" style="--bs-scroll-height: 140px;">
-          <li class="nav-item"><a class="nav-link" href="index.html">L'association</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nos accompagnements</a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a href="accompagnements.html" class="dropdown-item">Logement</a></li>
-              <li><a href="accompagnements.html" class="dropdown-item">Insertion Socio-Professionnelle</a></li>
-              <li><a href="accompagnements.html" class="dropdown-item">Psycho-Médico-Social</a></li>
-              <li><a href="accompagnements.html" class="dropdown-item">Juridique</a></li>
-            </ul>
-          </li>
-          <li class="nav-item"><a class="nav-link" href="evenements.html">Evénements</a></li>
-          <li class="nav-item"><a class="nav-link" href="partenaires.html">Nos partenaires</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nous contacter</a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown2">
-              <li><a href="#questions" class="dropdown-item">Posez une question</a></li>
-              <li><a href="#join" class="dropdown-item">Nous Rejoindre!</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">Faire un don</a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
-              <li><a href="dons.html" class="dropdown-item">Argent</a></li>
-              <li><a href="dons.html" class="dropdown-item">Vêtements</a></li>
-              <li><a href="dons.html" class="dropdown-item">Nourriture</a></li>
-              <li><a href="dons.html" class="dropdown-item">Autres</a></li>
-            </ul>
-          </li>
-        </ul>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">L'ASPT</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">L'association</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nos accompagnements</a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><a href="accompagnements.html" class="dropdown-item">Logement</a></li>
+                <li><a href="accompagnements.html" class="dropdown-item">Insertion Socio-Professionnelle</a></li>
+                <li><a href="accompagnements.html" class="dropdown-item">Psycho-Médico-Social</a></li>
+                <li><a href="accompagnements.html" class="dropdown-item">Juridique</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="evenements.html">Evénements</a></li>
+            <li class="nav-item"><a class="nav-link" href="partenaires.html">Partenaires</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nous contacter</a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><a href="#questions" class="dropdown-item">Posez une question</a></li>
+                <li><a href="#join" class="dropdown-item">Nous Rejoindre!</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Faire un don</a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><a href="dons.html" class="dropdown-item">Argent</a></li>
+                <li><a href="dons.html" class="dropdown-item">Vêtements</a></li>
+                <li><a href="dons.html" class="dropdown-item">Nourriture</a></li>
+                <li><a href="dons.html" class="dropdown-item">Autres</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </nav>
@@ -117,14 +125,14 @@
 
   <footer>
     <ul class="mention">
-      <li><a href="#">Mentions légales</a></li>
-      <li><a href="#">Politique de confidentialité</a></li>
-      <li><a href="#">Foire aux questions</a></li>
+      <li><a href="partenaires.html">Mentions légales</a></li>
+      <li><a href="partenaires.html">Politique de confidentialité</a></li>
+      <li><a href="partenaires.html">Foire aux questions</a></li>
     </ul>
     
     <ul class="author">
       <li>Tous droits réservés</li>
-      <li>Codé par <a href="#">Hubert Marjorie</a></li>
+      <li>Codé par <a href="https://github.com/MarjorieHubert" target="_blank">Hubert Marjorie</a></li>
     </ul>
   </footer>
 </body>
