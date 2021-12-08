@@ -176,6 +176,7 @@ body {
 
 .join_row {
   border-top: 1px solid rgba(139, 139, 139, 0.671);
+  margin: 5px;
 }
 
 .join_row_bottom {
@@ -235,12 +236,6 @@ footer ul li a:hover {
 
 /*Média queries*/
 
-@media screen and (min-width: 690px) {
-  .navbar-nav-scroll {
-    max-height: 250px;
-  }
-}
-
 @media screen and (min-width: 992px) { 
   .navbar-nav > .nav-item > .nav-link { 
     color: black;
@@ -263,6 +258,16 @@ footer ul li a:hover {
 
   .svg {
     display: initial;
+  }
+
+  /*Contact/Rejoignez-nous*/
+
+  .join_row {
+    text-align: left;
+  }
+
+  .col-12.col-lg-3.mb-4.mt-2.btn_post_contain {
+    text-align: center;
   }
 }
 
