@@ -37,7 +37,7 @@ body {
 }
 
 .offcanvas {
-  background-color: grey;
+  background-color: rgb(100, 99, 99);
 }
 
 /*Barres de défilement, code trouvé sur internet*/
@@ -61,12 +61,12 @@ body {
 }
 
 .dropdown-menu a {
-  color: lightgray;
+  color: white;
 }
 
 .dropdown-menu a:hover {
   background-color: rgba(255, 255, 255, 0);
-  color: white;
+  color: lightgray;
 }
 
 /*Sections*/
@@ -238,16 +238,22 @@ footer ul li a:hover {
 
 @media screen and (min-width: 992px) { 
   .navbar-nav > .nav-item > .nav-link { 
-    color: black;
+    color: white;
     font-weight: bold;
   }
 
-  .dropdown-menu a {
-    color: black;
-  } 
-
   .navbar {
-    width: initial;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.294);
+  }
+
+  .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.781);
+    display: none;
+  }
+
+  .nav-item:hover > ul {
+    display: block;
   }
 
   .adress {
