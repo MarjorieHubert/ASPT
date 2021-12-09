@@ -11,3 +11,5 @@ Allow: /index
 Allow: /accompagnements
 Allow: /evenements
 Allow: /dons
+
+sitemap: https://marjoriehubert.github.io/sitemap.xml
