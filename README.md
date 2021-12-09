@@ -12,8 +12,12 @@ The responsive web version is created with media queries.
 * CSS3
 * Bootstrap 4
 * FIGMA
+* Visual Studio Code (text editor)
 ***
 
 ## Progress
 This site is still under development and will be updated soon by its developer...
+***
 
+## Authors
+Hubert Marjorie.
